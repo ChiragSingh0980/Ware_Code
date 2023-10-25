@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Responsive Tables Using LI <small>Triggers on 767px</small></h2>
+        <ul class="responsive-table">
+          <li class="table-header">
+            <div class="col col-1">Crop</div>
+            <div class="col col-2">space alloted</div>
+            <div class="col col-3">Total space</div>
+            <div class="col col-4">MSP</div>
+            <div class="col col-5">Pricing</div>
+            <div class="col col-6">warehouse status</div>
+          </li>
+          <li class="table-row">
+            <div class="col col-1" data-label="Crop">Wheat</div>
+            <div class="col col-2" data-label="space-taken">35 tonnes</div>
+            <div class="col col-3" data-label="space-left">500 space</div>
+            <div class="col col-4" data-label="">2200 / tonne</div>
+            <div class="col col-5" data-label="">$ 1200</div>
+            <div class="col col-6" data-label="">
+                <!-- progress bar -->
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" style="width: 50%"></div>
+            </div>
+
+          </li>
+        
+        </ul>
+      </div>
+</body>
+</html>
